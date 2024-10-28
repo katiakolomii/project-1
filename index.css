@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope";
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  background: whitesmoke;
+  box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.25), -4px -4px 100px 10px #4cc9b58c;
+  color: #000000;
+  z-index: 1;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 40%;
+  width: 515px;
+  height: 680px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#right-picture{
+  width: 380px;
+  height: 500px;
+}
+
+
+#nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin-top: 0px;
+  margin-left: 20px;
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(76, 201, 181, 0.549);
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    width: 100%;
+}
+
+.underline{
+  text-decoration: none;
+  font-style: normal;
+    font-weight: 700;
+    color: #4cc9b58c;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  unicode-bidi: isolate;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+.left-main p {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;  
+}
+
+
+
+.left-bottom {
+  margin-left: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+}
+
+#github-button img{
+  width: 24px;
+  height: 24px;
+}
+
+#github-button {
+  margin-right: 10px;
+  background-color: #4cc9b58c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  width: 160px; /* Adjust button width */
+  height: 50px;  /* Adjust button height */
+}
+
+
+.underline-button {
+  text-decoration: none;
+  font-style: normal;
+}
+
+#linkendln-button img{
+  width: 18px;
+  height: 18px;
+  color: black;
+}
+
+#linkendln-button {
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: #4cc9b58c;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
+  border: 1.5px solid #4cc9b58c;
+  width: 160px; /* Adjust button width */
+  height: 50px;  /* Adjust button height */
+}
